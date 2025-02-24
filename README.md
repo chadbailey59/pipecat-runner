@@ -1,6 +1,6 @@
 # Deploy FastAPI on Render
 
-Use this repo as a template to deploy a Python [FastAPI](https://fastapi.tiangolo.com) service on Render.
+Use this repo as a template to deploy a Python [FastAPI](https://fastapi.tiangolo.com) service on Render that can start bots on Pipecat Cloud.
 
 See https://render.com/docs/deploy-fastapi or follow the steps below:
 
@@ -20,7 +20,11 @@ See https://render.com/docs/deploy-fastapi or follow the steps below:
 
 Or simply click:
 
-[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/render-examples/fastapi)
+[![Deploy to Render](https://render.com/images/deploy-to-render-button.svg)](https://render.com/deploy?repo=https://github.com/chadbailey59/pipecat-runner)
+
+## Pipecat Cloud setup
+
+Copy env.example to .env and edit as needed.
 
 ## Thanks
 
