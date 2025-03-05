@@ -64,6 +64,7 @@ async def start_bot() -> tuple[str, str]:
         room_url = data["dailyRoom"]
         token = data["dailyToken"]
         await aiohttp_session.close()
+    print(f"Returning room: {room_url} and token: {token}")
     return (room_url, token)
 
 
